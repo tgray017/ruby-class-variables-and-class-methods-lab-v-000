@@ -20,7 +20,6 @@ class Song
 #    @@genres.each do |genre| 
       if @@genre_count.keys.include?(@genre)
         @@genre_count[@genre] += 1
-        binding.pry
       else
         @@genre_count[@genre] = 1
       end
