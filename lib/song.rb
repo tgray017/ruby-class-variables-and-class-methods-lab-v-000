@@ -24,7 +24,7 @@ class Song
         @@genre_count[@genre] = 1
       end
       
-      binding.pry
+#      binding.pry
 #      binding.pry
 #      @@genre_count.keys.each do |genre_key|
 #        if genre_key == genre
